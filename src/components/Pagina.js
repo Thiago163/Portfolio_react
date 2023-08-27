@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 const HomePage = () => {
@@ -47,10 +47,18 @@ const HomePage = () => {
 
           {/* Links sociais */}
           <div className='flex justify-center lg:justify-end mt-10 lg:mt-0'>
-            <a href='https://github.com/Thiago163' className='text-accent text-8xl'>
+            <a href='https://github.com/Thiago163' className='text-accent text-4xl md:text-5xl lg:text-6xl'>
               <FaGithub className='ml-1' />
             </a>
-            {/* Adicione mais links sociais aqui */}
+            <a href='https://www.instagram.com/thiagocruz163/?igshid=ZDdkNTZiNTM%3D' className='text-accent text-4xl md:text-5xl lg:text-6xl ml-4'>
+              <FaInstagram />
+            </a>
+            <a href='https://www.linkedin.com/in/thiago-cruz163' className='text-accent text-4xl md:text-5xl lg:text-6xl ml-4'>
+              <FaLinkedin />
+            </a>
+            <a href='https://wa.me/qr/EUMZHUCMKY32B1' className='text-accent text-4xl md:text-5xl lg:text-6xl ml-4'>
+              <FaWhatsapp />
+            </a>
           </div>
         </div>
       </div>
