@@ -147,10 +147,29 @@ const Trabalhos = () => {
           @media screen and (width: 1024px) {
             #services {
               margin-top: 200px;
-              margin-bottom: 200px;
+              margin-bottom: 300px;
             }
           }
         `}
+
+        {`
+          @media screen and (width: 1481.6px) {
+            #services {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+        `}
+
+        {`
+          @media screen and (width: 1280px) {
+            #services {
+              margin-top: 20px;
+              margin-bottom: 15px;
+            }
+          }
+        `}
+
       </style>
       <div className='container mx-auto'>
         <h2 className='text-3xl font-bold mb-9'>Meus Trabalhos</h2>
