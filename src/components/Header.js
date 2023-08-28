@@ -15,7 +15,7 @@ const Header = () => {
       <div className='banner'>
         <img src={banner} alt="Banner" className='banner-image' />
         <button className='btn' onClick={scrollToContact}>
-          Entre em contato
+          Tecnologias
         </button>
       </div>
     </header>
