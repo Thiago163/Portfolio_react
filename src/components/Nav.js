@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsChatSquareText } from 'react-icons/bs';
+import { BsClipboardData, BsTools } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
