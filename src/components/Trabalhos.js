@@ -133,6 +133,15 @@ const Trabalhos = () => {
             }
           }
         `}
+        
+        {`
+          @media screen and (max-width: 900px) {
+            #services {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+        `}
 
         {`
           @media screen and (width: 1024px) {
