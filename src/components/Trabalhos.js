@@ -1,7 +1,12 @@
 import React from 'react';
-import { FaCode, FaMobileAlt, FaPaintBrush, FaWalking, FaBaby } from 'react-icons/fa';
+import { FaCode, FaWalking, FaBaby, FaGamepad, FaPrescriptionBottle } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
-import avatar from '../assets/avatar.png';
+import cuidadoresLogo from '../assets/cuidadoresLogo.png';
+import sharkcolor from '../assets/sharkcolor.png';
+import Esteira from '../assets/Esteira.jpg';
+import cuidadores from '../assets/cuidadores.png';
+import Monstros from '../assets/Monstros.png';
+import branco from '../assets/branco.jpg';
 
 const servicesData = [
   // ... objetos de serviço ...
@@ -10,54 +15,56 @@ const servicesData = [
     title: 'Portfólio <html>',
     description: 'Eu desenvolvi este mesmo portfólio em HTML e CSS. Dê uma olhada.',
     link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
+    image: sharkcolor,
   },
   {
-    icon: <FaCode />,
-    title: 'Site Cuidadores',
-    description: 'Este foi um projeto que desenvolvi no curso técnico em desenvolvimento de sistemas.',
-    link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
-  },
-  {
-    icon: <FaMobileAlt />,
+    icon: <FaPrescriptionBottle />,
     title: 'Esteira para teste de qualidade',
     description: 'Esse dispositivo foi criado em equipe no curso técnico em eletromecânica.',
-    link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
+    link: 'https://cad.onshape.com/signin',
+    image: Esteira,
+  },
+  {
+    icon: <FaBaby />,
+    title: 'Site Cuidadores',
+    description: 'Este foi um projeto que desenvolvi no curso técnico em desenvolvimento de sistemas.',
+    link: 'https://cuidadores.netlify.app/',
+    image: cuidadoresLogo,
   },
   {
     icon: <FaBaby />,
     title: 'Artigo Cuidadores',
     description: 'Este foi o artigo técnico que eu e meus colegas escrevemos para ganharmos o título de desenvolvedores de sistemas.',
-    link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
+    link: 'https://cuidadores.netlify.app/',
+    image: cuidadores,
   },
   {
-    icon: <FaPaintBrush />,
+    icon: <FaGamepad />,
     title: 'Jogo Três Chances',
     description: 'Esse foi o jogo que fizemos para desenvolver nossa habilidade em desenvolvimento C#.',
-    link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
+    link: 'https://github.com/Thiago163/Jogo_tres_chances',
+    image: Monstros,
   },
   {
     icon: <FaWalking />,
     title: 'Esperando Mais Conteúdo',
     description: 'Vazio.',
-    image: avatar,
+    link: 'https://cruzthiago.netlify.app/',
+    image: branco,
   },
   {
     icon: <FaWalking />,
     title: 'Esperando Mais Conteúdo',
     description: 'Vazio.',
-    image: avatar,
+    link: 'https://cruzthiago.netlify.app/',
+    image: branco,
   },
   {
     icon: <BsArrowRight />,
     title: 'Ver Mais',
     description: 'Clique aqui para ver mais trabalhos.',
     link: 'https://thiagocruz.netlify.app/',
-    image: avatar,
+    image: branco,
   },
 ];
 
