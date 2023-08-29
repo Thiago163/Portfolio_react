@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Trabalhos from './components/Trabalhos';
-import Contact from './components/Contact';
+import Tecnologias from './components/Tecnologias';
 import './index.css';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
       <Nav />
       <About />
       <Trabalhos />
-      <Contact />
+      <Tecnologias />
     </div>
   );
 };
