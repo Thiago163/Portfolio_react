@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Certifique-se de importar useState
-import { FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaCode, FaCloud, FaTools, FaRobot } from 'react-icons/fa';
+import { FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaCode, FaCloud, FaTools, FaRobot, FaGithub, FaGit, FaGlobe } from 'react-icons/fa';
 
 const Tecnologias = () => {
   const tecnologias = [
@@ -12,6 +12,9 @@ const Tecnologias = () => {
     { icon: <FaCloud size={48} className='text-indigo-500' />, nome: 'Azure', detalhes: 'Plataforma de nuvem da Microsoft para serviços e soluções em nuvem.' },
     { icon: <FaTools size={48} className='text-gray-500' />, nome: 'Inventor', detalhes: 'Software de modelagem 3D e projeto mecânico.' },
     { icon: <FaRobot size={48} className='text-green-700' />, nome: 'ChatGPT', detalhes: 'Modelo de linguagem baseado em IA da OpenAI para conversas e geração de texto.' },
+    { icon: <FaGit size={48} className='text-orange-600' />, nome: 'Git', detalhes: 'Permite trabalhos com plataformas como Github e Gitlab com mais facilidade' },
+    { icon: <FaGithub size={48} className='text-black' />, nome: 'Github', detalhes: 'Plataforma online que armazena códigos e permite desenvolvedores modificar os mesmos.' },
+    { icon: <FaGlobe size={48} className='text-blue-500' />, nome: 'Netlify', detalhes: 'Plataforma de hospedagem e implantação contínua para aplicativos da web.' },
   ];
 
   const [selectedTecnologia, setSelectedTecnologia] = useState(null);
