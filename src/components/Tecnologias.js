@@ -30,12 +30,12 @@ const Tecnologias = () => {
   return (
     <section className='section py-4' id='contact'>
       <div className='container mx-auto'>
-        <h2 className='text-3xl font-bold mb-4 text-white'>Tecnologias Recentes</h2>
+        <h2 className='text-3xl font-bold mb-4 text-white'>Tecnologias</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
           {tecnologias.map((tecnologia, index) => (
             <div
               key={index}
-              className={`border p-4 flex flex-col items-center justify-center text-center bg-gray-100 rounded-lg shadow-md transform hover:scale-105 transition-transform hover:rotate-3 ${selectedTecnologia === index ? 'border-blue-500' : 'border-gray-100'}`}
+              className={`border p-4 flex flex-col items-center justify-center text-center bg-gray-100 rounded-lg shadow-md transform hover:scale-105 transition-transform hover:rotate-3 ${selectedTecnologia === index ? 'border-blue-500' : 'border-gray-100'} cursor-pointer`}
               onClick={() => handleTecnologiaClick(index)}
             >
               <div className='mb-2'>{tecnologia.icon}</div>
