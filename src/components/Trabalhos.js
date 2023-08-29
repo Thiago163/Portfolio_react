@@ -170,6 +170,15 @@ const Trabalhos = () => {
           }
         `}
 
+        {`
+          @media screen and (width: 1536px) {
+            #services {
+              margin-top: 20px;
+              margin-bottom: 25px;
+            }
+          }
+        `}
+
       </style>
       <div className='container mx-auto'>
         <h2 className='text-3xl font-bold mb-9'>Meus Trabalhos</h2>
