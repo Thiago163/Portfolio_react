@@ -35,15 +35,15 @@ const HomePage = () => {
             </div>
             
             {/* Seção de formação */}
-            <div className='flex items-start'>
-              <div>
-                <h3 className='text-xl font-semibold text-black mb-2'>Formação</h3>
-                <p className='text-gray-600'>
-                  Sou formado em Técnico em Eletromecânica e Análise e Desenvolvimento de Sistemas e atualmente estou estudando Manutenção Industrial na Fatec Osasco.
-                </p>
-              </div>
-            </div>
+       <div className='flex items-start'>
+          <div>
+            <h3 className='text-xl font-semibold text-black mb-2'>Formação</h3>
+            <p className='text-gray-600'>
+              Sou formado em Técnico em Eletromecânica e Análise e Desenvolvimento de Sistemas e atualmente estou estudando Manutenção Industrial na Fatec Osasco.
+            </p>
           </div>
+        </div>
+
 
           {/* Links sociais */}
           <div className='flex justify-center lg:justify-end mt-10 lg:mt-0'>
